@@ -152,12 +152,21 @@ body {
     .name {
       float: left;
       margin-left: 5%;
+
     }
+   * {
+      box-sizing: border-box;
+    }
+
+   .pic {
+     display: block;
+   }
 
     .profile-image-container {
       /* display: flex; */
-      width: 25%;
-      float: right;
+    width: 35%;
+    position: relative;
+    left: 70%;
 
     }
 
@@ -180,13 +189,17 @@ body {
 
 
 
-    .main-content1-container {
+    /* .main-content1-container {
       width: 50%;
       text-align: left;
-      margin-top: 7%;
+      margin-top: 5%;
       padding: 0 10px;
-      /* float:left; */
-    }
+      display: flex;
+
+    } */
+
+
+
     .row1 {
       display:flex;
     }
