@@ -17,7 +17,6 @@ p {
   font-family: 'Work Sans', sans-serif;
   font-weight: normal;
   padding-bottom: 5%;
-  margin-left: 3%;
 }
 
 ul {
@@ -152,6 +151,16 @@ body {
 .mobile {
   display: block;
 }
+
+.full {
+  display: none;
+}
+
+.top {
+  background-color: #F3F3F3;
+}
+
+
 /* For desktop: */
 @media screen and (min-width: 1024px) {
 
