@@ -17,6 +17,7 @@ p {
   font-family: 'Work Sans', sans-serif;
   font-weight: normal;
   padding-bottom: 5%;
+  padding-left: 2%;
 }
 
 ul {
@@ -158,6 +159,9 @@ body {
 
 .top {
   background-color: #F3F3F3;
+  font-weight: bold;
+  color: #000000;
+  margin-top: -1.5%;
 }
 
 
@@ -176,7 +180,8 @@ body {
   .nav-container {
     width: 100%;
   }
-  ul, li {
+  
+  .mobile-list {
     list-style-type: none;
     margin: 0;
     border: 10px;
@@ -239,7 +244,7 @@ body {
   .main-content1 {
     text-align: left;
     float: left;
-    margin-left: 4%;
+    margin-left: 2.5%;
 
   }
 
@@ -255,6 +260,24 @@ body {
     display: none;
   }
 
+.top {
+  display: none;
+}
+
+.full {
+  display: inline-block;
+  background-color: #F3F3F3;
+  font-weight: bold;
+  font-size: 10%;
+  font-family: 'Work Sans', sans-serif;
+  color: #000000;
+  margin-top: 7%;
+  float: none;
+}
+
+.full-list {
+  float: none;
+}
 
 }
 
