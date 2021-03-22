@@ -1,0 +1,420 @@
+/* Layout Set-up */
+
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+
+h1 {
+  color: #434241;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+h3 {
+  color: #434241;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  padding-top: 5%;
+
+}
+p {
+  color: #434241;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: normal;
+  padding-bottom: 5%;
+  padding-left: 2%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  border: 13px solid #F3F3F3;
+  background-color: #FBFAFA;
+  max-width: 100%
+  display:block;
+  text-align: center;
+}
+
+ul li {
+  padding: 10px 18px;
+  border-bottom: 5px solid #F3F3F3;
+}
+
+ul li:last-child {
+  border border-bottom: none;
+}
+
+
+img {
+  max-width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-navigate {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+
+
+/* --- Layout Containers   ---- */
+
+.profile-image {
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container1 {
+    margin: 0 auto;
+    padding: 1em 0;
+    background-color: #F3F3F3;
+    /* display: inline-block; */
+}
+
+
+.main-footer {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #F3F3F3;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
+.name {
+  margin: 0;
+}
+
+.PORTFOLIO-HEADING {
+  padding-bottom: 5%;
+}
+
+h4 {
+  float: left;
+  width: 50%;
+  background-color: #F3F3F3;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.footer_line {
+  border: solid thin #C6C2C1;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+/*--- Unvisted link --- */
+a:link {
+  color: #434241;
+  text-decoration: none;
+}
+
+/* --- vistied link --- */
+a:visited {
+  color: lightblue;
+}
+
+/*--- mouse over link --- */
+a:hover {
+  color: darkgray;
+}
+
+
+/*--- Remove default margin.--- */
+
+/* body {
+  margin: 0;
+} */
+
+.main-content2 {
+  text-align:center;
+  margin: 5%;
+}
+
+
+/* For tablets: */
+/* @media tablet {
+  header {
+    min-width: 768px;
+  }
+
+} */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > column {
+  flex: 1 0 26%
+}
+.desktop {
+  display: none;
+}
+.mobile {
+  display: block;
+}
+
+.full {
+  display: none;
+}
+
+.top {
+  background-color: #F3F3F3;
+  font-weight: bold;
+  color: #000000;
+  margin-top: -1.5%;
+}
+
+
+/* For desktop: */
+@media screen and (min-width: 1024px) {
+
+  .col-2 {
+    width: 100%;
+  }
+
+  .header-div {
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .nav-container {
+    width: 100%;
+  }
+
+  .mobile-list {
+    list-style-type: none;
+    margin: 0;
+    border: 10px;
+    float:right;
+    /* padding: 5 5 5 15px; */
+    background-color: #F3F3F3;
+    display:inline-flex;
+  }
+  .name {
+    float: left;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  .Paragraph {
+    width: 50%;
+  }
+
+  .pic {
+    display: flex;
+  }
+
+  .profile-image-container {
+    /* display: flex; */
+  width: 50%;
+  /* position: relative; */
+  /* left: 70%; */
+
+  }
+
+  .profile-image {
+    /* max-width: 27%;
+    padding-top: 3%;
+    position: relative;
+    left: 30%;
+    margin-top: 3%;
+    margin-right: 5%; */
+    float: right;
+    padding: 10px 18px;
+    position: relative;
+    /* margin-top: 15%; */
+    /* margin-left: 5px; */
+    width: 75%;
+
+  }
+
+
+
+  .main-content1-container {
+    width: 100%;
+    /* text-align: left; */
+    margin-top: 5%;
+    /* margin-left: 2%; */
+    /* padding: 0 10px; */
+    display: flex;
+
+  }
+
+  .main-content1 {
+    text-align: left;
+    float: left;
+    margin-left: 2.5%;
+
+  }
+
+  .text-container {
+    width: 50%;
+    margin-left: 2%;
+  }
+
+  .flex-container > div {
+    flex-basis: 33.33%
+  }
+  .mobile{
+    display: none;
+  }
+
+.top {
+  display: none;
+}
+
+.full {
+  display: inline-block;
+  background-color: #F3F3F3;
+  font-weight: bold;
+  font-size: 95%;
+  font-family: 'Work Sans', sans-serif;
+  color: #000000;
+  /* margin-top: 7%; */
+  float: none;
+}
+
+.full-list {
+  float: none;
+  background-color: #F3F3F3;
+}
+
+}
+
+
+/* For tablet: */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+.col-2 {
+  width: 100%;
+}
+
+.header-div {
+  width: 100%;
+  margin-left: 2%;
+}
+
+.nav-container {
+  width: 100%;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  border: 10px;
+  text-align: center;
+  /* padding: 5 5 5 15px; */
+  background-color: #F3F3F3;
+  display:inline-flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Paragraph {
+  width: 50%;
+}
+
+.pic {
+  display: flex;
+}
+
+.profile-image-container {
+  /* display: flex; */
+width: 50%;
+/* position: relative; */
+/* left: 70%; */
+
+}
+
+.profile-image {
+  /* max-width: 27%;
+  padding-top: 3%;
+  position: relative;
+  left: 30%;
+  margin-top: 3%;
+  margin-right: 5%; */
+  float: right;
+  padding: 10px 18px;
+  position: relative;
+  /* margin-top: 15%; */
+  /* margin-left: 5px; */
+  width: 75%;
+
+}
+
+.main-content1-container {
+  width: 100%;
+  /* text-align: left; */
+  margin-top: 5%;
+  /* margin-left: 2%; */
+  /* padding: 0 10px; */
+  display: flex;
+
+}
+
+.main-content1 {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.text-container {
+  width: 50%;
+  margin-left: 2%;
+}
+
+.flex-container > div {
+  flex-basis: 50%
+
+}
+.mobile{
+  display: none;
+}
+
+.top {
+  display: none;
+}
+
+.full {
+  display: inline-block;
+  background-color: #F3F3F3;
+  font-weight: bold;
+  font-size: 95%;
+  font-family: 'Work Sans', sans-serif;
+  color: #000000;
+  margin-top: 7%;
+  float: none;
+}
+
+.full-list {
+  float: none;
+  background-color: #F3F3F3;
+  padding-bottom: 23px;
+}
+
+}
+
+
+
+
+}
+
+/*non essetial demo sytles*/
+
+/* .flex-container > div {
+flex: 33.33%
+} */
